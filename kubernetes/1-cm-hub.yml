@@ -31,8 +31,8 @@ items:
 # that is ok.
 - apiVersion: v1
   kind: Secret
-    metadata:
-      name: hub-proxy-pass
+  metadata:
+    name: hub-proxy-pass
   data:
     HUB_PROXY_PASSWORD: "ZHVtbXkK"
 
